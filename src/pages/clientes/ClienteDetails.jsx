@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { FaEdit, FaArrowLeft, FaTrash } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 
-import api from '../../../services/api';
+import api from '../../services/api';
 
 const ClienteDetails = () => {
   const { id } = useParams();

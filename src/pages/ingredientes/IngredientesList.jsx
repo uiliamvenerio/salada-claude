@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Card from '../../components/ui/Card';
-import Button from '../../components/ui/Button';
+import Card from '../components/ui/Card';
+import Button from '../components/ui/Button';
 import { PlusIcon, PencilIcon, TrashIcon, EyeIcon } from '@heroicons/react/24/outline';
 
 const IngredientesList = () => {
