@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { FaSave, FaArrowLeft } from 'react-icons/fa';
 
-import Input from '../components/ui/Input';
+import Input from '../../components/ui/Input';
 import api from '../../services/api';
 
 const IngredienteForm = () => {
